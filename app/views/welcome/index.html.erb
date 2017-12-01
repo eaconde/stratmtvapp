@@ -1,0 +1,24 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th></th>
+      <th>DETAILS</th>
+      <th>STATUS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @wishes.each do |wish| %>
+    <tr>
+      <td class="acct_img">
+        <%= image_tag wish[:pic] %>
+      </td>
+      <td>
+        <p><%= wish[:details] %></p>
+      </td>
+      <td>
+        <p><%= wish[:status] %></p>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
