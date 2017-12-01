@@ -1,3 +1,8 @@
+body {
+  // font-family: 'Source Serif Pro', serif;
+  font-family: 'Luckiest Guy', cursive;
+}
+
 .container-fluid {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -11,6 +16,12 @@
   padding: 0;
 }
 
+#wishes {
+  thead {
+    font-size: 20px
+  }
+}
+
 .user-profile img {
   width: 29px;
   height: 29px;
@@ -18,10 +29,17 @@
   margin-right: 10px
 }
 
-.acct_img {
+.wish-pic {
   width: 100px;
   img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
+}
+
+.wish-details {
+  // font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower', cursive;
+  // font-family: 'Pacifico', cursive;
+  font-size: 18px;
 }
